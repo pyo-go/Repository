@@ -1,4 +1,5 @@
 $ git clone https://github.com/USERNAME/REPOSITTORY.git
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,7 +9,7 @@ $ git clone https://github.com/USERNAME/REPOSITTORY.git
   </head>
   <body>
     <div>
-      <h1>hello, pages!</h1>
+      <h1>pyogo's, finencial home pages!</h1>
     <div>
   </body>
 </html>
