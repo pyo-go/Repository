@@ -1,1 +1,18 @@
 $ git clone https://github.com/USERNAME/REPOSITTORY.git
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog by github pages</title>
+  </head>
+  <body>
+    <div>
+      <h1>hello, pages!</h1>
+    <div>
+  </body>
+</html>
+
+$ git add .
+$ git commit -m 'Added index.html'
+$ git push
