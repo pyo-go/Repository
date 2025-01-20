@@ -22,3 +22,14 @@ $ git push
 $ curl -H "Authorization: token YOUR_PERSONAL_ACCESS_TOKEN" https://api.github.com/pyo-go
 
 $ Authorization: token YOUR_PERSONAL_ACCESS_TOKEN
+
+import base64
+content = "This is a new blog post."
+base64_content = base64.b64encode(content.encode()).decode()
+print(base64_content)  # 결과를 Make.com에 입력
+
+{
+  "message": "New blog post",
+  "content": "VGhpcyBpcyBhIG5ldyBibG9nIHBvc3Qu",  // Base64로 인코딩된 내용
+  "branch": "main"
+}
